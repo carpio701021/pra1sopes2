@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script src="principal.js"></script>
+		<title>201213052</title>
+	</head>
+	<body>
+		<div style="padding:5px 15%">
+			<table border='2' width='100%'> <tr><td>
+				Sistemas operativos 2 <br/>
+				2do semestre 2015 <br/>
+				Javier Jose Carpio Bonilla<br/>
+				201213052
+			</td></tr></table>
+
+
+			<div align='center'>
+				<h1>Practica 1</h1>
+			</div>
+
+
+			<input type="submit" value="Nueva simulacion" onClick="onClickNuevaSimulacion();"/>
+
+			<div id="formularios" style="display:none">
+				<h3>Configuraciones de simulacion</h3>
+
+				<div id="formulario1" style="display:none">
+					Recursos del sistema:
+					<input type="number" /><br/>
+					<br />
+					<input type="submit" value="Siguiente" onClick="onClickBtnF1();"/>
+				</div>
+
+				<div id="formulario2" style="display:none">
+					
+
+					<table border=1 style="width:100%;" >
+						<tr><td>
+							<input type="submit" value="Agregar Tiempo" onClick="onClickAddT()" style="width:100%;"/>
+						</td></tr>
+						<tr><td>
+							<div id='divTiempos'>
+							hola
+							</div>
+						</td></tr>
+						<tr><td>
+							<input type="submit" value="Iniciar Simulacion" onClick="onClickIniciarS()" style="width:100%;"/>
+						</td></tr>
+					</table>
+
+				</div>
+
+
+			</div>
+
+
+
+		</div>
+
+
+	</body>
+</html>
